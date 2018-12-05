@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>PleX</Name>
+  <Repository>prasad7676/plex</Repository>
+  <Registry>https://hub.docker.com/r/prasad7676/plex/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category>MediaApp:Video MediaApp:Music MediaApp:Books MediaApp:Photos</Category>
+  <WebUI/>
+  <TemplateURL>https://github.com/prasad7676/Docker-Plex</TemplateURL>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1544035899</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/plex/</HostDir>
+      <ContainerDir>/root</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Config" Target="/root" Default="/mnt/user/appdata/plex/" Mode="rw" Description="Container Path: /root" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/plex/</Config>
+</Container>
