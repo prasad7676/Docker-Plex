@@ -2,7 +2,7 @@ FROM prasad7676/base-ubuntu:latest
 
 LABEL maintainer="IntHunter(Prasad Patel)"
 
-ENV PLEX_DOWNLOAD="https://downloads.plex.tv/plex-media-server/1.14.0.5470-9d51fdfaa/plexmediaserver_1.14.0.5470-9d51fdfaa_amd64.deb" 
+ENV PLEX_DOWNLOAD="https://downloads.plex.tv/plex-media-server/1.14.1.5488-cc260c476/plexmediaserver_1.14.1.5488-cc260c476_amd64.deb" 
 
 RUN apt-get update && \
 	apt-get -y install udev avahi-daemon dbus curl && \
